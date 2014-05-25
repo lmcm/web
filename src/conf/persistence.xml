@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="webPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Controller.Articulos</class>
+    <class>Controller.AspnetPersonalizationPerUser</class>
+    <class>Controller.CentroBeneficio</class>
+    <class>Controller.AspnetMembership</class>
+    <class>Controller.AspnetSchemaVersions</class>
+    <class>Controller.VwaspnetMembershipUsers</class>
+    <class>Controller.VwaspnetWebPartStatePaths</class>
+    <class>Controller.VwaspnetWebPartStateUser</class>
+    <class>Controller.Sysdiagrams</class>
+    <class>Controller.VwaspnetWebPartStateShared</class>
+    <class>Controller.DetalleReqArticulo</class>
+    <class>Controller.VwaspnetUsersInRoles</class>
+    <class>Controller.AspnetWebEventEvents</class>
+    <class>Controller.AspnetPaths</class>
+    <class>Controller.VwaspnetApplications</class>
+    <class>Controller.DetalleReqServicio</class>
+    <class>Controller.VwaspnetUsers</class>
+    <class>Controller.AspnetPersonalizationAllUsers</class>
+    <class>Controller.AspnetApplications</class>
+    <class>Controller.VwAreaUsuario</class>
+    <class>Controller.Proyectos</class>
+    <class>Controller.AspnetRoles</class>
+    <class>Controller.AspnetProfile</class>
+    <class>Controller.Requisiciones</class>
+    <class>Controller.VwaspnetProfiles</class>
+    <class>Controller.AspnetUsers</class>
+    <class>Controller.VwaspnetRoles</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://10.0.1.254\MSSQLSERVER:1433;databaseName=rex"/>
+      <property name="javax.persistence.jdbc.password" value="Grup0i@i"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+    </properties>
+  </persistence-unit>
+</persistence>
