@@ -21,7 +21,7 @@ public class Model {
     String bd = "mundialresidentes";
     String login = "root";
     String password = "";
-    String url = "jdbc:mysql://localhost:3306/" + bd;
+    String url = "jdbc:mysql://7.45.127.87/" + bd;
     Connection conn = null;
     PreparedStatement pst = null;
     ResultSet rs = null;
